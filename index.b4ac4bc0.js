@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",function(){var e=function(e){return e.charAt(0).toUpperCase()+e.slice(1)};document.querySelectorAll("form").forEach(function(t){t.querySelectorAll("input").forEach(function(t){var r=document.createElement("label");r.className="field-label",r.setAttribute("for",t.id);var n=e(t.name.replace(/([A-Z])/g," $1").trim());r.textContent=n,t.placeholder=e(n),t.parentNode.insertBefore(r,t)})})});
+//# sourceMappingURL=index.b4ac4bc0.js.map
